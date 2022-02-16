@@ -12,7 +12,7 @@ public class Questao1 {
         Scanner in = new Scanner( System.in );
         n = Integer.parseInt(in.nextLine());
 	    
-        System.out.println("Output: ");
+        System.out.println("Saída: ");
 	    int aux = n;   
 	    while(aux > 0){
 	        for(int i = 0; i < n; i++){

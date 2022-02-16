@@ -9,7 +9,7 @@ public class Questao2 {
         Scanner in = new Scanner( System.in );
 
         StrongPass strongPass = new StrongPass(in.nextLine()); 
-        System.out.println("Output: ");
+        System.out.println("Saída: ");
         
         if(strongPass.isStrongEnough()) {
         	System.out.println("Senha valida.");
